@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*FONT*/
+
+.playwrite-hu {
+  font-family: "Playwrite HU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+
+.roboto-slab {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 0;
+  font-style: normal;
+}
+
+
+
+/*NAVBAR*/
+
+ul {
+    list-style-type:none;
+    background-color: #6F4E37;
+    overflow:hidden;
+    padding: 2em;
+    margin: 0;
+
+}
+
+li {
+    display: inline;
+
+}
+
+li a {
+    text-decoration:none;
+    color:#FFFDD0;
+    font-size:2em;
+    font-family: "Roboto Slab", serif;
+    padding:3em;
+}
+
+li a:hover {
+    background-color:#C4A484;
+}
+/*IMAGES*/
+
+.crown {
+    width:30%;
+    margin-left:65%;
+    margin-top: 400px;
+    position: absolute;
+    top:90px;
+    margin-bottom: 1000px;
+}
+
+.flowers , .gym , .party , .era {
+    width:550px;
+    height:550px;
+    margin-left:13px;
+    margin-bottom:30px;
+}
+
+.web {
+    font-size:45px;
+    margin:3%;
+    
+}
+
+.one {
+    color:#FFFDD0;
+    text-decoration: none;
+}
+
+.ward {
+    color: #FFFDD0;
+    text-decoration: none;
+}
+
+.fire,.clean,.sea,.firefly,.diy,.bee {
+    width:700px;
+    height:700px;
+    margin-left:33%;
+    margin-bottom:5%;
+}
+/*BUTTON*/
+
+button {
+    font-family: "Playwrite HU", cursive;
+    font-size:65px;
+    background-color:#C4A484;
+    padding:5%;
+    margin:5%;
+    border:10px solid #6F4E37;
+    border-radius:5%;
+    
+}
+
+.back {
+    font-size:30px;
+    padding:15px;
+    border:5px solid #654321;
+    margin:30px;
+}
+
+.first {
+    font-size:90px;
+
+}
+
+.second {
+    font-size:45px;
+    text-align:center;
+    margin:70px;
+}
+
+.stop {
+    font-size: 45px;
+    margin-left:80px;
+    margin-bottom:60px;
+}
+/*DIVISIONS*/
+
+.list {
+    font-size: 45px;
+    margin-right: 20%;
+    margin-left:17%;
+    margin-bottom:4%;
+    margin-top:4%;
+    text-align:left;
+}
+
+.beg {
+    margin-left:10%;
+    margin-top:5%;
+
+}
+
+.shirt, .can , .cereal {
+
+    font-size:45px;
+    text-align:center;
+    margin:100px;
+    background-color:#C4A484;
+    padding:20px;
+    border-radius: 5%;
+}
+
+
+/*TEXT*/
+
+h1, h2, h3, h4 {
+    color: #654321;
+    font-family: "Playwrite HU", cursive;
+}
+
+
+
+p {
+    color:#654321;
+    font-family: "Roboto Slab", serif;
+}
+
+/*CLASS*/
+
+.title {
+    text-align: center;
+    font-size: 150px;
+    
+}
+
+.welcome {
+    font-size: 80px;
+    margin-left:240px;
+    position: relative;
+    
+}
+
+.hey {
+    font-size: 70px;
+    margin-right:1090px;
+    margin-left:300px;
+}
+
+.quote {
+    font-size: 55px;
+    margin-left:30px;
+    position:relative;
+    top:30px;
+    color:rgb(18, 122, 219)
+
+}
+
+.wen {
+    font-size:50px;
+    margin-left:30px;
+    position: relative;
+    top:-5px;
+    color:rgb(18, 122, 219);
+}
+
+.every {
+    font-size:90px;
+}
+
+.here {
+    font-size:60px;
+}
+
+.my {
+    font-size:90px;
+}
+
+.this {
+    font-size:60px;
+}
+/*BACKGROUND*/
+
+body {
+    background-image: url("assets/Back.png");
+    background-size: cover;
+
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #6F4E37;
+    color:#FFFDD0;
+    font-family: "Roboto Slab", serif;
+    font-size:xx-large;
+    padding:2.5em;
+}
